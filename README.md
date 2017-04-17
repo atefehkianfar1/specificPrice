@@ -7,9 +7,9 @@ $this->holePrice($price,$priceCount);
 $this->holePrice($price , $priceCount)
 خروجی دقیقا مقداری است که در بالا ذکر شد 
 
-It's really easy to user. For Ex we have a number like 320548520000 and we want to show it like 320 billion and 548 million 520 thousand Toman (or dollar et).To using this method you should pass the method 2 parameters : 1.price 2.pric number count , It's simple like this :
+It's really easy to use. For Example we have a number like 320548520000 and we want to show it like 320 billion and 548 million and 520 thousand Toman (or dollar et...).To using this method you should pass the method 2 parameters : 1.price 2.pric number count , It's simple like this :
 
 $price=320548520000;
 $priceCount=strlent(320548520000);
-$this->holePrice($price,$priceCount);
+echo ($this->holePrice($price,$priceCount));
 
