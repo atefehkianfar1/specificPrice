@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+//created by Atefeh kianfar www.prodev.mihanblog.com
+
 class ShowPriceContrller extends Controller
 {
     //First part of a price: Ex : 230.576.000.000 it shows 230
